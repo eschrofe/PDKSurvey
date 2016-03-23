@@ -8,27 +8,27 @@
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="MainContent" Runat="Server">
 
-  <asp:Label ID="Label1" runat="server" Text="This is a temporary placeholder for future content"></asp:Label>
+  <asp:Label ID="lblQuestionOne" runat="server" Text="This is a temporary placeholder for future content"></asp:Label>
   <br>
-  <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+  <asp:TextBox ID="txtQuestionOne" runat="server"></asp:TextBox>
   
   <br><br>
 
-    <asp:Label ID="Label2" runat="server" Text="This is a temporary placeholder for future content"></asp:Label>
+    <asp:Label ID="lblQuestionTwo" runat="server" Text="This is a temporary placeholder for future content"></asp:Label>
   <br />
-  <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+  <asp:TextBox ID="txtQuestionTwo" runat="server"></asp:TextBox>
   
   <br><br>
 
-    <asp:Label ID="Label3" runat="server" Text="This is a temporary placeholder for future content"></asp:Label>
+    <asp:Label ID="lblQuestionThree" runat="server" Text="This is a temporary placeholder for future content"></asp:Label>
   <br />
-  <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+  <asp:TextBox ID="txtQuestionThree" runat="server"></asp:TextBox>
 
   <br><br>
 
-  <asp:Label ID="Label4" runat="server" Text="This is a temporary placeholder for future content"></asp:Label>
+  <asp:Label ID="lblQuestionFour" runat="server" Text="This is a temporary placeholder for future content"></asp:Label>
   <br />
-  <asp:RadioButton ID="RadioButton1" runat="server" />
+  <asp:RadioButton ID="rbQuestionFour" runat="server" />
 
   <br><br>
 
