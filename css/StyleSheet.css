@@ -1,2 +1,40 @@
 ﻿body {
 }
+
+
+
+#wrapper {
+  border: 1px solid red;
+  width: 90%;
+  margin: 0 auto;
+}
+
+header {
+  border: 1px solid magenta;
+  width: 90%;
+  margin: 0 auto;
+
+}
+
+header > h1 {
+  text-align: center;
+
+}
+
+nav {
+  border: 1px solid green;
+  width: 90%;
+  margin: 0 auto;
+}
+
+#main {
+  border: 1px solid blue;
+  width: 90%;
+  margin: 0 auto;
+}
+
+footer {
+  border: 1px solid yellow;
+  width: 90%;
+  margin: 0 auto;
+}

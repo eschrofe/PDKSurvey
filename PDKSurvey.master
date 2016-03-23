@@ -14,21 +14,21 @@
     <form id="form1" runat="server">
     <div id="wrapper">
       <header>
-        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder ID="HeaderContent" runat="server"></asp:ContentPlaceHolder>
         <h1>
           Title Here
         </h1>
       </header>
       <nav>
-        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server"></asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder ID="NavContent" runat="server"></asp:ContentPlaceHolder>
 
       </nav>
-      <section>
-        <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server"></asp:ContentPlaceHolder>
+      <section id="main">
+        <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
 
       </section>
       <footer>
-        <asp:ContentPlaceHolder ID="ContentPlaceHolder4" runat="server"></asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder ID="FooterContent" runat="server"></asp:ContentPlaceHolder>
 
       </footer>
     </div>
