@@ -1,7 +1,14 @@
 ﻿body {
+  background-color: #90b1c2;
 }
 
 
+header, footer, nav, #main {
+  background-color: #bdc1c3;
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+}
 
 #wrapper {
   border: 1px solid red;
@@ -10,10 +17,7 @@
 }
 
 header {
-  border: 1px solid magenta;
-  width: 90%;
-  margin: 0 auto;
-
+  border: 1px solid green;
 }
 
 header > h1 {
@@ -22,19 +26,20 @@ header > h1 {
 }
 
 nav {
-  border: 1px solid green;
-  width: 90%;
-  margin: 0 auto;
+  border: 1px solid blue;
+  height: 50px; /* temporary */
 }
 
 #main {
-  border: 1px solid blue;
-  width: 90%;
-  margin: 0 auto;
+  border: 1px solid magenta;
+  text-align: center;
 }
 
 footer {
   border: 1px solid yellow;
-  width: 90%;
-  margin: 0 auto;
+  text-align: center;
+}
+footer > span {
+  font-size: 9pt;
+
 }

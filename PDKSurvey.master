@@ -29,7 +29,7 @@
       </section>
       <footer>
         <asp:ContentPlaceHolder ID="FooterContent" runat="server"></asp:ContentPlaceHolder>
-
+        <span>&copy; -----, Created by Eric Schrofe</span>
       </footer>
     </div>
       <script src="js/JavaScript.js"></script>
